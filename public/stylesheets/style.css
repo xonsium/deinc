@@ -1,0 +1,51 @@
+@font-face {
+  font-family: oldEng;
+  src: url(OLDENGL.TTF);
+}
+
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between; /* or center depending on the goal */
+  gap: 20px; /* Optional spacing between items */
+}
+
+.side {
+  width: 300px;
+  height: auto;
+}
+
+.head-img {
+  width: 200px;
+  height: auto;
+}
+
+.head {
+  font-family: oldEng;
+  color: #ac393d;
+}
+
+.cont {
+   flex-shrink: 0; /* Prevent the text from shrinking */
+  text-align: center;
+  font-size: 1rem; /* Style as needed */
+}
+
+#name {
+  width: 240px;
+}
+
+#message {
+  width: 240px;
+  height: 100px;
+}
